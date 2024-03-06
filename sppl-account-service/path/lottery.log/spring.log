@@ -1,0 +1,128 @@
+2024-02-19T16:53:32.633+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : Starting SpplAccountServiceApplication using Java 17.0.9 with PID 20440 (C:\sppl-microservices\sppl-account-service\target\classes started by Mind-Graph in C:\sppl-microservices\sppl-account-service)
+2024-02-19T16:53:32.633+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T16:53:32.953+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19T16:53:32.953+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T16:53:32.961+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 1 JPA repository interfaces.
+2024-02-19T16:53:32.965+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19T16:53:32.965+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19T16:53:32.967+05:30  INFO 20440 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sppl.repository.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-02-19T16:53:32.968+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-02-19T16:53:33.044+05:30  INFO 20440 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7425248-ea6b-3e57-bbae-8b08e819ef87
+2024-02-19T16:53:33.132+05:30  INFO 20440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-02-19T16:53:33.133+05:30  INFO 20440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T16:53:33.133+05:30  INFO 20440 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-02-19T16:53:33.163+05:30  INFO 20440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T16:53:33.163+05:30  INFO 20440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 528 ms
+2024-02-19T16:53:33.255+05:30  INFO 20440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T16:53:33.263+05:30  INFO 20440 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-19T16:53:33.263+05:30  INFO 20440 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T16:53:33.264+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-02-19T16:53:33.318+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@b24f4e1
+2024-02-19T16:53:33.318+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-02-19T16:53:33.336+05:30  INFO 20440 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-19T16:53:33.360+05:30  INFO 20440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-19T16:53:33.380+05:30  INFO 20440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T16:53:33.476+05:30  WARN 20440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T16:53:33.708+05:30  INFO 20440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T16:53:33.922+05:30  INFO 20440 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-02-19T16:53:34.169+05:30  WARN 20440 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-02-19T16:53:34.175+05:30  INFO 20440 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-02-19T16:53:34.226+05:30  INFO 20440 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-02-19T16:53:34.230+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-02-19T16:53:34.231+05:30  INFO 20440 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-02-19T16:53:34.232+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-02-19T16:53:34.248+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-02-19T16:53:34.249+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-02-19T16:53:34.249+05:30  INFO 20440 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-02-19T16:53:34.250+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1708341814250 with initial instances count: 2
+2024-02-19T16:53:34.253+05:30  INFO 20440 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCOUNT-SERVICE with eureka with status UP
+2024-02-19T16:53:34.253+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1708341814253, current=UP, previous=STARTING]
+2024-02-19T16:53:34.253+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082: registering service...
+2024-02-19T16:53:34.258+05:30  INFO 20440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-02-19T16:53:34.259+05:30  INFO 20440 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-02-19T16:53:34.266+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - registration status: 204
+2024-02-19T16:53:34.432+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : Started SpplAccountServiceApplication in 1.998 seconds (process running for 3798.992)
+2024-02-19T16:53:34.435+05:30  INFO 20440 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T16:54:16.027+05:30  INFO 20440 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T16:54:16.028+05:30  INFO 20440 --- [Thread-15] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+2024-02-19T16:54:16.028+05:30  INFO 20440 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1708341856028, current=DOWN, previous=UP]
+2024-02-19T16:54:16.028+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082: registering service...
+2024-02-19T16:54:16.039+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - registration status: 204
+2024-02-19T16:54:16.041+05:30  INFO 20440 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-19T16:54:16.047+05:30  INFO 20440 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T16:54:16.048+05:30  INFO 20440 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-02-19T16:54:16.050+05:30  INFO 20440 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-02-19T16:54:16.164+05:30  INFO 20440 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-02-19T16:54:19.174+05:30  INFO 20440 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-02-19T16:54:19.188+05:30  INFO 20440 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - deregister  status: 200
+2024-02-19T16:54:19.191+05:30  INFO 20440 --- [Thread-15] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-02-19T16:54:19.454+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : Starting SpplAccountServiceApplication using Java 17.0.9 with PID 20440 (C:\sppl-microservices\sppl-account-service\target\classes started by Mind-Graph in C:\sppl-microservices\sppl-account-service)
+2024-02-19T16:54:19.455+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-02-19T16:54:19.758+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19T16:54:19.759+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-02-19T16:54:19.766+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interfaces.
+2024-02-19T16:54:19.769+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-02-19T16:54:19.769+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-02-19T16:54:19.771+05:30  INFO 20440 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.sppl.repository.AccountRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-02-19T16:54:19.772+05:30  INFO 20440 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2024-02-19T16:54:19.846+05:30  INFO 20440 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=a7425248-ea6b-3e57-bbae-8b08e819ef87
+2024-02-19T16:54:19.937+05:30  INFO 20440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2024-02-19T16:54:19.938+05:30  INFO 20440 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-19T16:54:19.938+05:30  INFO 20440 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.10]
+2024-02-19T16:54:19.969+05:30  INFO 20440 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-19T16:54:19.970+05:30  INFO 20440 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 513 ms
+2024-02-19T16:54:20.063+05:30  INFO 20440 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-02-19T16:54:20.070+05:30  INFO 20440 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-19T16:54:20.071+05:30  INFO 20440 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-02-19T16:54:20.071+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-02-19T16:54:20.127+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@229e9dfb
+2024-02-19T16:54:20.128+05:30  INFO 20440 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-02-19T16:54:20.148+05:30  INFO 20440 --- [restartedMain] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2024-02-19T16:54:20.172+05:30  INFO 20440 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-02-19T16:54:20.191+05:30  INFO 20440 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T16:54:20.284+05:30  WARN 20440 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-02-19T16:54:20.509+05:30  INFO 20440 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-02-19T16:54:20.704+05:30  INFO 20440 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-02-19T16:54:20.914+05:30  WARN 20440 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-02-19T16:54:20.919+05:30  INFO 20440 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2024-02-19T16:54:20.951+05:30  INFO 20440 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-02-19T16:54:20.953+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-02-19T16:54:20.954+05:30  INFO 20440 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-02-19T16:54:20.955+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-02-19T16:54:20.976+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-02-19T16:54:20.977+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-02-19T16:54:20.978+05:30  INFO 20440 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-02-19T16:54:20.979+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1708341860979 with initial instances count: 2
+2024-02-19T16:54:20.982+05:30  INFO 20440 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application ACCOUNT-SERVICE with eureka with status UP
+2024-02-19T16:54:20.982+05:30  INFO 20440 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1708341860982, current=UP, previous=STARTING]
+2024-02-19T16:54:20.982+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082: registering service...
+2024-02-19T16:54:20.986+05:30  INFO 20440 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2024-02-19T16:54:20.986+05:30  INFO 20440 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8082
+2024-02-19T16:54:20.993+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - registration status: 204
+2024-02-19T16:54:21.158+05:30  INFO 20440 --- [restartedMain] com.sppl.SpplAccountServiceApplication   : Started SpplAccountServiceApplication in 1.911 seconds (process running for 3845.718)
+2024-02-19T16:54:21.161+05:30  INFO 20440 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-02-19T16:55:10.089+05:30  INFO 20440 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-02-19T16:55:10.089+05:30  INFO 20440 --- [Thread-21] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ACCOUNT-SERVICE with eureka with status DOWN
+2024-02-19T16:55:10.089+05:30  INFO 20440 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1708341910089, current=DOWN, previous=UP]
+2024-02-19T16:55:10.089+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082: registering service...
+2024-02-19T16:55:10.096+05:30  INFO 20440 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - registration status: 204
+2024-02-19T16:55:10.102+05:30  INFO 20440 --- [Thread-21] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-02-19T16:55:10.110+05:30  INFO 20440 --- [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-02-19T16:55:10.110+05:30  INFO 20440 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-02-19T16:55:10.113+05:30  INFO 20440 --- [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-02-19T16:55:10.226+05:30  INFO 20440 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-02-19T16:55:13.232+05:30  INFO 20440 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-02-19T16:55:13.250+05:30  INFO 20440 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ACCOUNT-SERVICE/DESKTOP-8CHCM99:account-service:8082 - deregister  status: 200
+2024-02-19T16:55:13.253+05:30  INFO 20440 --- [Thread-21] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient

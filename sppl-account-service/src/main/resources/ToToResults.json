@@ -1,0 +1,83 @@
+{
+	"results": {
+		"drawNo": "3883",
+		"drawDate": "20241105",
+		"isDrawCancelled": "Y",
+		"jackpotPrize": 1305295.0,
+		"winningNumbers": [
+			"09",
+			"19",
+			"20",
+			"21",
+			"32",
+			"43"
+		],
+		"additionalNumber": "04",
+		"nextJackpotEstimateAmount":50000,
+		"nextDrawNo": "3884",
+		"nextDrawDate": "20241102",
+		"nextDrawTime": "9:30 PM",
+		"nextDrawType": "Normal",
+		"specialDrawWin": "Y",
+		"winningShares": {
+			"group1": {
+				"shareValue": 0,
+				"numberOfWinningShares": 0
+			},
+			"group2": {
+				"shareValue": 68700,
+				"numberOfWinningShares": 4
+			},
+			"group3": {
+				"shareValue": 2223,
+				"numberOfWinningShares": 85
+			},
+			"group4": {
+				"shareValue": 439,
+				"numberOfWinningShares": 235
+			},
+			"group5": {
+				"shareValue": 50,
+				"numberOfWinningShares": 4664
+			},
+			"group6": {
+				"shareValue": 25,
+				"numberOfWinningShares": 6423
+			},
+			"group7": {
+				"shareValue": 10,
+				"numberOfWinningShares": 87982
+			}
+		},
+		"winningOutlets": {
+			"group1": [
+				{
+					"retailNumber": "12345678",
+					"betType": 2,
+					"syndicateType": 2,
+					"totalParts": 2,
+					"numberOfParts": 12,
+					"partsId": 2,
+					"quickPick": "1",
+					"syndicateId": "12345",
+					"syndicateName": "Sy7 6Bd 10Pt",
+					"syndicateSetId": "1"
+				}
+			],
+			"group2": [
+				{
+					"retailNumber": "12345678",
+					"betType": 2,
+					"syndicateType": 2,
+					"totalParts": 2,
+					"numberOfParts": 12,
+					"partsId": 2,
+					"quickPick": "1",
+					"syndicateId": "12345",
+					"syndicateName": "Sy7 6Bd 10Pt",
+					"syndicateSetId": "1"
+				}
+			]
+		}
+	}
+}
