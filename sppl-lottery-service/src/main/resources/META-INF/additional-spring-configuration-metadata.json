@@ -1,0 +1,16 @@
+{"properties": [{
+  "name": "sppl.OSBHOST",
+  "type": "java.lang.String",
+  "description": "A description for 'sppl.OSBHOST'"
+},
+
+{  
+"name": "sppl.osbLotteryPath",
+  "type": "java.lang.String",
+  "description": "A description for 'sppl.osbLotteryPath'"
+}
+
+]
+
+
+}

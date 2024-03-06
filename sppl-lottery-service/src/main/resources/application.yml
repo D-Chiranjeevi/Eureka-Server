@@ -1,0 +1,46 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: lottery-service
+  datasource:
+    driver-class-name:  
+    url: jdbc:db2://localhost:25000/SAMPLE
+    username: db2admin
+    password: db2admin
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  data:
+    redis:
+      host: localhost
+      port: 6379
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url: 
+     defaultZone: http://localhost:8080/eureka
+    
+management:
+  endpoints:
+    enabled-by-default: false
+    web:
+      exposure:
+        include:
+        - info
+        - metrics
+        - threaddump
+  endpoint:
+    info:
+      enabled: true
+    metrics:
+      enabled: true
+    threaddump:
+      enabled: true
+
+
+      
+      
+
